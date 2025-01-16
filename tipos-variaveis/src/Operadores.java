@@ -1,6 +1,6 @@
 public class Operadores {
     public static void main(String[] args) {
-       /*  int a,b;
+         int a,b;
 
         a=6;
         b=5;
@@ -18,10 +18,10 @@ public class Operadores {
 
         String resultado = a==b ? "verdadeiro":"Falso";
 
-        System.out.println(resultado);*/
+        System.out.println(resultado);
         ////////////////////////////////////////////////////////////
         
-        /*String nome1 = "Samantha";
+        String nome1 = "Samantha";
         String nome2 =  new String("Samantha");
 
         System.out.println(nome1==nome2);
@@ -45,7 +45,7 @@ public class Operadores {
 
         simNao = numero1 > numero2;
 
-        System.out.println("Numero1 é maior a Numero2 ? " +simNao); */
+        System.out.println("Numero1 é maior a Numero2 ? " +simNao); 
 
         ////////////////////////////////////////////////////////////////////////
         
