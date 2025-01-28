@@ -1,5 +1,5 @@
 public class TiposVariaveis {
-    public static void main(String[] args) throws Exception {
+    public static void main (String[] args) throws Exception {
        double salarioMinimo = 2500;
 
        short numeroCurto = 1;
@@ -12,6 +12,8 @@ public class TiposVariaveis {
      
 
       System.out.println(numero);
+      System.out.println(numeroCurto2);
+      System.out.println(salarioMinimo);
 
     }
 }
