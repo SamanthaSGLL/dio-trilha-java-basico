@@ -1,7 +1,13 @@
 public class SmartTv {
+
     boolean ligada = false;
     int canal = 1;
     int volume = 25;
+
+    public void mudardecanal(int novoCanal){
+        canal=novoCanal;
+
+    }
 
     public void ligar(){
         ligada = true;
@@ -25,4 +31,7 @@ public class SmartTv {
     public void diminuirVolume(){
         volume--;
     }
+
+
+    
 }

@@ -27,5 +27,8 @@ public class Cliente {
         smartTv.diminuirVolume();
         System.out.println("Novo status do Volume :" + smartTv.volume);
         
+        smartTv.mudardecanal(13);
+        System.out.println("Novo status do Canal :" + smartTv.canal);
+
       }
 }
