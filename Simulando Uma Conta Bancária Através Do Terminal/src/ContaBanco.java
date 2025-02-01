@@ -18,9 +18,9 @@ public class ContaBanco {
         System.out.println(" Digite o saldo da conta :");
         Double saldoConta = sc.nextDouble();
 
-        Conta.name(NomeCliente);
-        Conta.agencia(numeroAgencia);
-        Conta.conta(numeroConta);
+        Conta.nomeCliente(NomeCliente);
+        Conta.numerosAgencia(numeroAgencia);
+        Conta.numerosConta(numeroConta);
         Conta.contaBancaria(saldoConta);
         
         System.out.println(" \n Ola "+ Conta.nome + ", obrigado por criar uma conta em nosso banco , sua agencia e " + Conta.agencia + ", conta " + Conta.conta + " e seu saldo " + Conta.saldo + "\n ja estao disponiveis para saque");

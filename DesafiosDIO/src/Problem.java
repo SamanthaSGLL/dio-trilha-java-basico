@@ -10,9 +10,7 @@ public class Problem {
         contador2=0;
 
         for (int i=0;i<N;i++){
-            System.out.print("Jogador 1 digite o ataque :");
             jogador1 = entrada.next().toLowerCase();
-            System.out.print("Jogador 2 digite o ataque :");
             jogador2 = entrada.next().toLowerCase();
 
             if (jogador1.equals("ataque") && jogador2.equals("pedra")){
@@ -27,7 +25,7 @@ public class Problem {
                 System.out.println("Jogador 1 venceu");   
                 contador1++;
             }
-            else if (jogador1.equals("papel") && jogador2.equals("pedra")){
+            else if (jogador1.equals("papel") a{
                 System.out.println("Jogador 2 venceu"); 
                 contador2++;
             }

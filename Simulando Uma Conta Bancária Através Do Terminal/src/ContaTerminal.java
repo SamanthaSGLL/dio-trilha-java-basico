@@ -5,16 +5,16 @@ public class ContaTerminal {
     String nome = "";
     Double saldo =0.0;
     
-    public void conta (int NumeroConta){
+    public void numerosConta (int NumeroConta){
         conta=NumeroConta;
 
     }
 
-    public void agencia(String NumeroAgencia){
+    public void numerosAgencia(String NumeroAgencia){
         agencia=NumeroAgencia;
     }
 
-    public void name (String NomeCliente){
+    public void nomeCliente (String NomeCliente){
         nome=NomeCliente;
     }
     public void contaBancaria (Double ValorSaldo){
